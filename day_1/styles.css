@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EFF3BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card
+{
+    width: 510px;
+    background-color: white;
+    height: auto;
+    position: absolute;
+    border-radius: 64px;
+
+}
+
+.header
+{
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 510px;
+    height: 280px;    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name
+{
+    text-align: center;
+    font-size: 45px;
+}
+
+.username
+{
+    text-align: center;
+    font-size: 19px;
+    opacity: 0.6;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 34px;
+
+    margin-bottom: 44px;
+}
+
+button
+{
+    width: 191px;
+    height: 57px;
+
+
+}
+
+.follow
+{
+    background-color: #DF3F8C;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 95px;
+    
+    border: none;
+}
+
+.message
+{
+    background-color: white;
+    color: #838383;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 95px;
+
+    border: 1px solid #838383;
+}
